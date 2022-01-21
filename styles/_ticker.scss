@@ -1,0 +1,19 @@
+section {
+  padding: 0px 30px 8px 30px;
+  margin-top: 53px;
+
+  .ticker {
+    text-align: center;
+    justify-items: center;
+    font-size: 11px;
+  }
+
+  a {
+    color: rgb(19, 111, 204);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@mixin h1text {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+@mixin h2text {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+@mixin h3text {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 6px;
+  letter-spacing: -0.01em;
+}
+
+@mixin ptext {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@mixin financeText {
+  font-size: 18px;
+  margin: 5px;
+}
+
+@mixin stopMoving {
+  object-fit: cover;
+  position: absolute;
+  left: calc(50% + 0px);
+  right: auto;
+  bottom: auto;
+  top: 0px;
+  transform: translate(-50%);
+  overflow: hidden;
+}
+
+@mixin btnGrid {
+  color: #2997ff;
+  background: none;
+  border: none;
+  margin: 10px;
+  letter-spacing: 0.2px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    color: #2997ff;
+    font-size: 17px;
+    font-weight: 100;
+    text-decoration: none;
+  }
+}
